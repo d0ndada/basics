@@ -1,0 +1,26 @@
+.text{
+    
+    font-size: 52px;
+    color: cornsilk;
+    text-shadow: 3px 3px burlywood;
+}
+
+.holderImages{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    top: -90px;
+    position: relative;
+
+}
+
+img{
+   
+    justify-content: center;
+
+    position: relative;
+    bottom: -150px;
+    height: 57vh;
+    border: 13px solid burlywood;
+    box-shadow: 2px 4px 15px rgb(0 0 0 / 50%);
+}

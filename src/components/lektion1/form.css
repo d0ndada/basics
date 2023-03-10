@@ -1,0 +1,38 @@
+.title{
+  font-size: 10vh;
+  color: oldlace;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+.result{
+    color: cornflowerblue;
+    font-size: 10vh;
+    border: 18px solid purple;
+    border-radius: 10px;
+    animation: blink 1s linear infinite;
+}
+.plus{
+    color:antiquewhite;
+}
+
+
+@keyframes blink {
+    0% {
+      border-color: purple;
+    }
+    50% {
+      border-color: white;
+    }
+    100% {
+      border-color: purple;
+    }
+  }
+
+

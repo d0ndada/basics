@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    background-color: whitesmoke;
+}
+.navbar a {
+    color: brown;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px;
+}
+.nabvar a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
