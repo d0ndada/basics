@@ -1,3 +1,13 @@
+.home-page {
+    background-image: url(../../assets/gtable.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+
+
+
 .text{
     
     font-size: 52px;
@@ -13,6 +23,11 @@
     position: relative;
 
 }
+.holderImages.disco {
+    transition: all 0.3s ease-in-out;
+    transform: scale(.3) translateY(-580px);
+  }
+  
 
 img{
    
@@ -24,3 +39,58 @@ img{
     border: 13px solid burlywood;
     box-shadow: 2px 4px 15px rgb(0 0 0 / 50%);
 }
+.mona{
+    cursor: pointer;
+}
+img.disco {
+    animation: disco 0.5s infinite;
+    cursor: pointer;
+}
+
+@keyframes disco {
+    0% { filter: hue-rotate(0deg); }
+    50% { filter: hue-rotate(180deg); }
+    100% { filter: hue-rotate(0deg); }
+}
+
+img.hasbulla {
+    position: relative;
+    bottom: -150px;
+    height: 57vh;
+    border: 13px solid burlywood;
+    box-shadow: 2px 4px 15px rgb(0 0 0 / 50%);
+}
+
+img.dance {
+    animation: dance 0.5s infinite;
+}
+
+@keyframes dance {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+}
+.tates{
+    position: relative;
+    bottom: 382px;
+    height: 45vh;
+    border: 13px solid burlywood;
+    box-shadow: 2px 4px 15px rgb(0 0 0 / 50%);
+    margin-top: 20px;
+}
+.free{
+    position: absolute;
+    font-size: 46px;
+    left: 56vh;
+    color: floralwhite;
+    background-color: burlywood;
+    display: inline-block;
+}
+    .container {
+    max-height: calc(100vh - 100px); /* set a maximum height that is 100 pixels less than the viewport height */
+  overflow-y: auto; 
+   height:90vh;
+  }
+  .free-container {
+    position: relative;
+  }
